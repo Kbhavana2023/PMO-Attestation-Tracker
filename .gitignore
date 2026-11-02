@@ -1,6 +1,63 @@
+# Local secrets and project data
 .env
+.envrc
 .venv/
+env/
+venv/
+ENV/
+*.db
+db.sqlite3
+db.sqlite3-journal
+uploaded_documents/
+.streamlit/secrets.toml
+
+# Python cache and compiled files
 __pycache__/
 *.py[cod]
-*.db
-uploaded_documents/
+*$py.class
+*.so
+.pytest_cache/
+.coverage*
+htmlcov/
+
+# Packaging and build output
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+
+# Logs and temporary files
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+tempCodeRunnerFile.py
+
+# Common Python tool caches
+.tox/
+.nox/
+.cache/
+.hypothesis/
+.ruff_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.pybuilder/
+.pytest_cache/
+.coverage.*
+.ipynb_checkpoints/
+
+# Common environment and IDE files
+.idea/
+.vscode/
+.spyderproject
+.spyproject
+.ropeproject
